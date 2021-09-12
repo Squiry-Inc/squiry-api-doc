@@ -1,0 +1,1 @@
+# squiry-api-doc

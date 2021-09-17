@@ -10,7 +10,7 @@
 
 ## Courses
 
-- [Getting All Courses](course/get-all-courses.md)
+- [Getting All Courses](courses/get-all-courses.md)
 - [Getting User Enrolled Courses](courses/get-user-enrolled-courses.md)
 - [Getting A Particular Course](accept-payment/split-payment.md)
 - [Enrolling in A Course](courses/course-enrollment.md)

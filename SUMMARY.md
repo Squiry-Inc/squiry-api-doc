@@ -19,6 +19,7 @@
 ## Topics & Quizzes
 
 - [Getting Course Topics](payments/add-payment.md)
+- [Getting A Topic](topics-quizzes/get-topic.md)
 - [Getting A Particular Course Topic](payments/get-payment.md)
 - [Marking Topic as Complete](payments/get-payment-history.md)
 - [Marking Topic as Incomplete](payments/get-payment-history.md)

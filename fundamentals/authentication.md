@@ -8,10 +8,9 @@ Your authorization header should be like:`Authorization: Bearer cd525b1d647942a2
 
 All API requests must be made over [HTTPS](http://en.wikipedia.org/wiki/HTTP_Secure). Calls made over plain HTTP will fail. API requests without authentication will also fail.
 
-{% page-ref page="test-cards-and-bank-accounts.md" %}
-
 {% hint style="info" %}
 **Heads up!**
 
 Your id token carry many privileges, so be sure to keep them secure! Do not share your Private API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
 {% endhint %}
+

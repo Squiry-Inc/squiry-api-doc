@@ -1,4 +1,4 @@
-# Get All Courses
+# Getting All Courses
 
 {% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/courses-all" path="" %}
 {% api-method-summary %}
@@ -21,7 +21,6 @@ Get all Currently published Courses
 {% api-method-parameter name="No body" type="string" required=false %}
 NO body
 {% endapi-method-parameter %}
-
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
@@ -60,13 +59,12 @@ NO body
   }
 }
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### Request
+## Request
 
 ```bash
 curl https://api.payant.ng/invoices \
@@ -74,7 +72,7 @@ curl https://api.payant.ng/invoices \
 -X GET
 ```
 
-### Response
+## Response
 
 ```javascript
 {
@@ -95,3 +93,4 @@ curl https://api.payant.ng/invoices \
   }
 }
 ```
+

@@ -10,10 +10,10 @@
 
 ## Courses
 
-- [Getting All Courses](accept-payment/inline-payment.md)
-- [Getting User Enrolled Courses](accept-payment/split-payment.md)
+- [Getting All Courses](course/get-all-courses.md)
+- [Getting User Enrolled Courses](courses/get-user-enrolled-courses.md)
 - [Getting A Particular Course](accept-payment/split-payment.md)
-- [Enrolling in A Course](accept-payment/split-payment.md)
+- [Enrolling in A Course](courses/course-enrollment.md)
 - [Check User Enrollment status for a Course](accept-payment/split-payment.md)
 
 ## Topics & Quizzes

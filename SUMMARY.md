@@ -26,4 +26,4 @@
 
 ## Others
 
-- [Getting list of institutions](invoice/add-invoice.md)
+- [Getting list of institutions](others/get-institutions.md)

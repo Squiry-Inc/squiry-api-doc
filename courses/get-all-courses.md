@@ -90,7 +90,17 @@ curl https://api.payant.ng/invoices \
             "created_at": "2016-12-21 18:46:30",
             "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
             "published": true,
-        }
+        },
+        {
+            "course_id": "j9CbiTN0oJe4vWhglyS2",
+            "course_title": "Shopify dropshipping",
+            "thumbnail": "https://via.placeholder.com/150",
+            "author": "sample",
+            "course_desc": "lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+            "created_at": "2016-12-21 18:46:30",
+            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
+            "published": true,
+        },
     ]
   }
 }

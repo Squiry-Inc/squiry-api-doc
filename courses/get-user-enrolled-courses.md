@@ -1,4 +1,4 @@
-# Get User Courses
+# Getting User Enrolled Courses
 
 {% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses" path="" %}
 {% api-method-summary %}
@@ -10,12 +10,12 @@ Getting User Enrolled Courses
 {% endapi-method-description %}
 
 {% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-id token prefixed with "Bearer "
 {% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endapi-method-path-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -24,16 +24,15 @@ id token prefixed with "Bearer "
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Request**
+## **Request**
 
 ```bash
 curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
@@ -42,7 +41,7 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
 -X GET
 ```
 
-### **Response**
+## **Response**
 
 ```javascript
 {
@@ -73,3 +72,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
   }
 }
 ```
+

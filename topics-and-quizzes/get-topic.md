@@ -1,4 +1,4 @@
-# Get Topic
+# Getting A Topic
 
 {% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/:topicId" path="" %}
 {% api-method-summary %}
@@ -30,16 +30,15 @@ Id token prefixed by "Bearer "
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Request**
+## **Request**
 
 ```bash
 curl https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/AwWaRuYt94iCex4rtE4X \
@@ -48,7 +47,7 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/AwWaRuYt94iCe
 -X GET
 ```
 
-### **Response**
+## **Response**
 
 ```javascript
 {
@@ -61,3 +60,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/AwWaRuYt94iCe
   "course_id": "j9CbiTN0oJe4vWhglyS2"
 }
 ```
+

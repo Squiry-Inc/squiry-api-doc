@@ -30,16 +30,15 @@ Id token prefixed by "Bearer "
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Request**
+## **Request**
 
 ```bash
 curl https://us-central1-squiry-4f678.cloudfunctions.net/api/check-enrollment/AwWaRuYt94iCex4rtE4X \
@@ -48,7 +47,7 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/check-enrollment/Aw
 -X GET
 ```
 
-### **Response**
+## **Response**
 
 ```javascript
 {
@@ -63,3 +62,4 @@ or
    "message": "Not Enrolled"
 }
 ```
+

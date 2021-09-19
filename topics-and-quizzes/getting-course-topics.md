@@ -12,10 +12,16 @@ Getting topics in a course
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="courseId" type="string" required=true %}
+courseId
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Id token prefixed with bearer
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -27,7 +33,6 @@ Getting topics in a course
 ```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -75,3 +80,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
   }
 }
 ```
+

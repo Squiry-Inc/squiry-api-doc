@@ -1,4 +1,4 @@
-# Get Institutions
+# Getting list of institutions
 
 {% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/institutions" path="" %}
 {% api-method-summary %}
@@ -16,7 +16,6 @@ Get List of Institutions
 No Params
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -25,16 +24,15 @@ No Params
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### **Request**
+## **Request**
 
 ```bash
 curl https://us-central1-squiry-4f678.cloudfunctions.net/api/institutions \
@@ -42,7 +40,7 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/institutions \
 -X GET
 ```
 
-### **Response**
+## **Response**
 
 ```javascript
 {
@@ -67,3 +65,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/institutions \
 
 }
 ```
+

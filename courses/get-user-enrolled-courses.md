@@ -27,7 +27,6 @@ Getting User Enrolled Courses
 ```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -75,3 +74,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
   }
 }
 ```
+

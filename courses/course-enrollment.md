@@ -1,4 +1,4 @@
-# Course Enrollment
+# Enrolling in A Course
 
 {% api-method method="post" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/enroll/:courseId" path="" %}
 {% api-method-summary %}
@@ -33,7 +33,6 @@ id token prefixed by "Bearer "
 ```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -56,3 +55,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/enroll/fIWTG1Z5S79n
   "message": "Congratulations you have been successfully enrolled"
 }
 ```
+

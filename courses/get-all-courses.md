@@ -61,7 +61,6 @@ NO body
   }
 }
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -106,3 +105,4 @@ curl https://api.payant.ng/invoices \
   }
 }
 ```
+

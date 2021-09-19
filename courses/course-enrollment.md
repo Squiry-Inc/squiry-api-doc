@@ -33,6 +33,7 @@ id token prefixed by "Bearer "
 ```text
 
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -52,7 +53,6 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/enroll/fIWTG1Z5S79n
 ```javascript
 {
   "status": "success",
-  "message": "Congratulations you have been successfully Enrolled"
+  "message": "Congratulations you have been successfully enrolled"
 }
 ```
-

@@ -18,11 +18,10 @@
 
 ## Topics & Quizzes
 
-- [Getting Course Topics](topics-and-quizzes/getting-course-topics.md)
-- [Getting A Topic](topics-and-quizzes/get-topic.md)
-- [Getting A Particular Course Topic](topics-and-quizzes/getting-a-particular-course-topic.md)
-- [Marking Topic as Complete](topics-and-quizzes/marking-topic-as-complete.md)
-- [Marking Topic as Incomplete](topics-and-quizzes/marking-topic-as-incomplete.md)
+- [Getting Course Topics](topics-quizzes/getting-course-topics.md)
+- [Getting A Topic](topics-quizzes/get-topic.md)
+- [Marking Topic as Complete](topics-quizzes/marking-topic-as-complete.md)
+- [Marking Topic as Incomplete](topics-quizzes/marking-topic-as-incomplete.md)
 
 ## Others
 

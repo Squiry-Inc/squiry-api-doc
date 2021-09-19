@@ -46,32 +46,25 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
 
 ```javascript
 {
-  "status": "success",
-  "data": {
-    "courses": [
-        {
-            "course_id": "j9CbiTN0oJe4vWhglyS2",
-            "course_title": "Shopify dropshipping",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-            "published": true,
+  "topics": [
+       {
+            "topic_id": "1cCWUY8K1Fk5VvMtHupn",
             "author": "sample",
-            "thumbnail": "https://via.placeholder.com/150",
-            "created_at": "2016-12-21 18:46:30",
-            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
-            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
+            "title": "Why dropship on Shopify",
+            "description": "lorem ipsum dolor sit amet, consectet...",
+            "video_url": "https://www.vimeo.com/vidoe/why-shopify",
+            "material": "https://www.squiry.com/file/shopify.pdf",
+            "course_id": "j9CbiTN0oJe4vWhglyS2"
         },
         {
-            "course_id": "j9CbiTN0oJe4vWhglyS2",
-            "course_title": "Shopify dropshipping",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-            "published": true,
+            "topic_id": "1cCWUY8K1Fk5VvMtHupn",
             "author": "sample",
-            "thumbnail": "https://via.placeholder.com/150",
-            "created_at": "2016-12-21 18:46:30",
-            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
-            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
-        }
+            "title": "Why dropship on Shopify",
+            "description": "lorem ipsum dolor sit amet, consectet...",
+            "video_url": "https://www.vimeo.com/vidoe/why-shopify",
+            "material": "https://www.squiry.com/file/shopify.pdf",
+            "course_id": "j9CbiTN0oJe4vWhglyS2"
+        },
     ]
-  }
 }
 ```

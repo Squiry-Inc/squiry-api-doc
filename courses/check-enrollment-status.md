@@ -1,8 +1,8 @@
-# Get Topic
+# Check Enrollment Status
 
-{% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/:topicId" path="" %}
+{% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/check-enrollment/:courseId" path="" %}
 {% api-method-summary %}
-Get a topic
+Check User Enrollment status for a Course
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,8 +12,8 @@ Get a topic
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="topicId" type="string" required=true %}
-Topic Id
+{% api-method-parameter name="courseId" type="string" required=true %}
+Course Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -42,7 +42,7 @@ Id token prefixed by "Bearer "
 ### **Request**
 
 ```bash
-curl https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/AwWaRuYt94iCex4rtE4X \
+curl https://us-central1-squiry-4f678.cloudfunctions.net/api/check-enrollment/AwWaRuYt94iCex4rtE4X \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer ID_TOKEN" \
 -X GET
@@ -52,12 +52,14 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/AwWaRuYt94iCe
 
 ```javascript
 {
-  "topic_id": "1cCWUY8K1Fk5VvMtHupn",
-  "author": "sample",
-  "title": "Why dropship on Shopify",
-  "description": "lorem ipsum dolor sit amet, consectet...",
-  "video_url": "https://www.vimeo.com/vidoe/why-shopify",
-  "material": "https://www.squiry.com/file/shopify.pdf",
-  "course_id": "j9CbiTN0oJe4vWhglyS2"
+   "status": true,
+   "message": "User Already Enrolled"
+}
+
+or
+
+{
+   "status": false,
+   "message": "Not Enrolled"
 }
 ```

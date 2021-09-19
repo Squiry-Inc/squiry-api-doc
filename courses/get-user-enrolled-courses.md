@@ -27,6 +27,7 @@ Getting User Enrolled Courses
 ```text
 
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -56,7 +57,8 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
             "author": "sample",
             "thumbnail": "https://via.placeholder.com/150",
             "created_at": "2016-12-21 18:46:30",
-            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"]
+            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
+            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
         },
         {
             "course_id": "j9CbiTN0oJe4vWhglyS2",
@@ -66,10 +68,10 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api/user-courses \
             "author": "sample",
             "thumbnail": "https://via.placeholder.com/150",
             "created_at": "2016-12-21 18:46:30",
-            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"]
+            "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
+            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
         }
     ]
   }
 }
 ```
-

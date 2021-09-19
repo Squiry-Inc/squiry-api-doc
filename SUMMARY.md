@@ -14,7 +14,7 @@
 - [Getting User Enrolled Courses](courses/get-user-enrolled-courses.md)
 - [Getting A Particular Course](courses/getting-a-particular-course.md)
 - [Enrolling in A Course](courses/course-enrollment.md)
-- [Check User Enrollment status for a Course](courses/check-user-enrollment-status-for-a-course.md)
+- [Check Enrollment Status](courses/check-enrollment-status.md)
 
 ## Topics & Quizzes
 

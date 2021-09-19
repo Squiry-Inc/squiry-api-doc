@@ -44,6 +44,7 @@ NO body
             "created_at": "2016-12-21 18:46:30",
             "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
             "published": true,
+            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
         },
         {
             "course_id": "j9CbiTN0oJe4vWhglyS2",
@@ -54,11 +55,13 @@ NO body
             "created_at": "2016-12-21 18:46:30",
             "course_topics": ["j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg","j9CbiTN0oJe4vWhg"],
             "published": true,
+            "video_preview": "https://www.vimeo.com/vidoe/why-shopify",
         },
     ]
   }
 }
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -103,4 +106,3 @@ curl https://api.payant.ng/invoices \
   }
 }
 ```
-

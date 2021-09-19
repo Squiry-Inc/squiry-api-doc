@@ -12,7 +12,7 @@
 
 - [Getting All Courses](courses/get-all-courses.md)
 - [Getting User Enrolled Courses](courses/get-user-enrolled-courses.md)
-- [Getting A Particular Course](courses/getting-a-particular-course.md)
+- [Getting A Course](courses/get-a-course.md)
 - [Enrolling in A Course](courses/course-enrollment.md)
 - [Check Enrollment Status](courses/check-enrollment-status.md)
 

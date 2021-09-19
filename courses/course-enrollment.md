@@ -1,4 +1,4 @@
-# Enrolling in A Course
+# Course Enrollment
 
 {% api-method method="post" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/enroll/:courseId" path="" %}
 {% api-method-summary %}

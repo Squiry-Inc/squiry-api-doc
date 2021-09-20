@@ -52,12 +52,18 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api//user \
 
 ```javascript
 {
-  "topic_id": "1cCWUY8K1Fk5VvMtHupn",
-  "author": "sample",
-  "title": "Why dropship on Shopify",
-  "description": "lorem ipsum dolor sit amet, consectet...",
-  "video_url": "https://www.vimeo.com/vidoe/why-shopify",
-  "material": "https://www.squiry.com/file/shopify.pdf",
-  "course_id": "j9CbiTN0oJe4vWhglyS2"
+  "user_id": "1cCWUY8K1Fk5VvMtHupn",
+  "username": "sample",
+  "full_name": "Sample User",
+  "email": "example@email.com",
+  "phone_number": "08123456789",
+  "role": "student",
+  "about_me": "lorem ipsum dolor sit amet, consectet...",
+  "image_url": "https://www.squiry.com/avatar/sample.png",
+  "institution": "Bayero University Kano - BUK",
+  "state": "Lagos, Nigeria",
+  "enrolled_courses": ["j9CbiTN0oJe4vWhglyS2", "j9CbiTN0oJe4vWhglyS2"],
+  "created_at": "2021-8-10T10:18:53.500Z"
+  "updated_at": "2021-8-10T10:18:53.500Z"
 }
 ```

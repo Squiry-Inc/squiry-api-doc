@@ -88,7 +88,7 @@ NO body
 ## Request
 
 ```bash
-curl https://api.payant.ng/invoices \
+curl https://us-central1-squiry-4f678.cloudfunctions.net/api/courses-all \
 -H "Content-Type: application/json" \
 -X GET
 ```

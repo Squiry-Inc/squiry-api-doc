@@ -1,6 +1,6 @@
 # Getting A Course
 
-{% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/topic/:topicId" path="" %}
+{% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/course/:courseId" path="" %}
 {% api-method-summary %}
 Get a course
 {% endapi-method-summary %}

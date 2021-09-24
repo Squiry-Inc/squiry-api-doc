@@ -1,4 +1,4 @@
-# Getting A User
+# Get User
 
 {% api-method method="get" host="https://us-central1-squiry-4f678.cloudfunctions.net/api/user" path="" %}
 {% api-method-summary %}
@@ -11,12 +11,6 @@ Getting a user data
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=true %}
-Topic Id
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Id token prefixed by "Bearer "
@@ -33,7 +27,6 @@ Id token prefixed by "Bearer "
 ```text
 
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -67,3 +60,4 @@ curl https://us-central1-squiry-4f678.cloudfunctions.net/api//user \
   "updated_at": "2021-8-10T10:18:53.500Z"
 }
 ```
+
